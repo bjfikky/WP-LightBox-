@@ -17,10 +17,14 @@
                         <h2><span>How to Use LightBox</span></h2>
 
                         <div class="inside">
-                            <p><?php esc_attr_e(
-                                    'WordPress started in 2003 with a single bit of code to enhance the typography of everyday writing and with fewer users than you can count on your fingers and toes. Since then it has grown to be the largest self-hosted blogging tool in the world, used on millions of sites and seen by tens of millions of people every day.',
-                                    'WpAdminStyle'
-                                ); ?></p>
+                            <p>To create a lightbox, use the shortcode <strong>[wplightbox]</strong></p>
+
+                            <p>The lightbox takes the following attributes;</p>
+                            <ul>
+                                <li>thumbnails, separated by commas</li>
+                                <li>images, separated by commas</li>
+                                <li>titles, separated by commas</li>
+                            </ul>
                         </div>
                         <!-- .inside -->
 

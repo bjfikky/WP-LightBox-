@@ -45,6 +45,16 @@ add_action('wp_enqueue_scripts', 'wplightbox_frontend_styles');
 
 function wplightbox_frontend($atts)
 {
+    $atts = shortcode_atts(
+        array(
+            'thumbnails' => '',
+            'images' => '',
+        ), $atts, 'wplightbox'
+    );
+
+    $thumbnails = explode(',', $atts['thumbnails']) ;
+    $images = explode(',', $atts['images']) ;
+
     require('inc/lightbox-template.php');
 }
 

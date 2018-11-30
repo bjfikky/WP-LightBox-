@@ -2,8 +2,8 @@
     <h2 style="text-align:center">Lightbox Gallery</h2>
 
     <div class="lightbox-gallery">
-        <a href="<?php echo plugins_url('wplightbox/images/pic1.jpg') ?>" data-lightbox="wplightbox">
-            <img src="<?php echo plugins_url('wplightbox/images/pic1_thumbnail.jpg') ?>" alt="">
+        <a href="<?php echo plugins_url('wplightbox/images/pic1.jpg') ?>" data-lightbox="wplightbox" data-title="Picture 1">
+            <img src="<?php echo plugins_url('wplightbox/images/pic1_thumbnail.jpg') ?>">
         </a>
 
         <a href="<?php echo plugins_url('wplightbox/images/pic2.jpg') ?>" data-lightbox="wplightbox">
